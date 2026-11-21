@@ -1,0 +1,2 @@
+# File internal hanya boleh dimuat oleh PHP, bukan diminta langsung melalui HTTP.
+Require all denied

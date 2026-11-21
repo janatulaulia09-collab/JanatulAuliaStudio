@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Studi konsep kampanye Musim Pangan</title>
+  <desc id="desc">Sistem grafis untuk pasar pangan lokal dengan tipografi editorial dan ilustrasi bahan segar.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#c1d2a5"/>
+      <stop offset="1" stop-color="#82966e"/>
+    </linearGradient>
+    <linearGradient id="poster" x1="0" y1="0" x2="0.8" y2="1">
+      <stop stop-color="#fff6e2"/>
+      <stop offset="1" stop-color="#f0ddba"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="22" stdDeviation="20" flood-color="#304133" flood-opacity=".25"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <circle cx="1080" cy="160" r="220" fill="#e7c77f" opacity=".55"/>
+  <g filter="url(#shadow)" transform="rotate(4 585 450)">
+    <rect x="270" y="85" width="650" height="730" rx="8" fill="url(#poster)"/>
+    <rect x="293" y="108" width="604" height="684" fill="none" stroke="#b78a54" stroke-width="2"/>
+    <text x="338" y="166" fill="#9b5035" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="5">PASAR KREATIF / 2026</text>
+    <text x="338" y="254" fill="#243d31" font-family="Georgia,serif" font-size="66" font-weight="700">Musim</text>
+    <text x="338" y="322" fill="#243d31" font-family="Georgia,serif" font-size="66" font-style="italic">Pangan</text>
+    <text x="342" y="364" fill="#74664d" font-family="Arial,sans-serif" font-size="13" letter-spacing="2">PANEN BAIK, CERITA BAIK</text>
+    <circle cx="590" cy="558" r="150" fill="#d96745"/>
+    <circle cx="590" cy="558" r="115" fill="#f1b85f"/>
+    <circle cx="590" cy="558" r="76" fill="#f4e4c4"/>
+    <path d="M583 474c-22-31-51-35-75-22 8 34 31 51 71 50m12-5c1-39 24-62 57-64 4 35-13 59-53 72m-20 126c0-51 8-89 25-118" fill="none" stroke="#50714c" stroke-width="10" stroke-linecap="round"/>
+    <path d="M462 570c26-20 50-26 74-18m101 11c29-9 55-4 77 17" fill="none" stroke="#c44f37" stroke-width="8" stroke-linecap="round"/>
+    <text x="340" y="740" fill="#243d31" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="3">POSTER / MARKET KIT / SOCIAL</text>
+    <rect x="742" y="700" width="102" height="35" rx="17" fill="#d96745"/>
+    <text x="793" y="723" text-anchor="middle" fill="#fff6e2" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1">LOCAL FIRST</text>
+  </g>
+  <text x="78" y="850" fill="#fff6e2" font-family="Arial,sans-serif" font-size="13" letter-spacing="5">GRAPHIC DESIGN / CONCEPT STUDY 06</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Studi konsep konten digital Pagi Studio</title>
+  <desc id="desc">Mockup kalender konten media sosial untuk brand kopi dengan visual hangat dan editorial.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#d8e4d7"/>
+      <stop offset="1" stop-color="#a8c0ab"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#fffaf0"/>
+      <stop offset="1" stop-color="#eee2cf"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#294438" flood-opacity=".24"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#background)"/>
+  <circle cx="160" cy="140" r="230" fill="#f7e5c4" opacity=".55"/>
+  <path d="M0 700c260-92 393-79 570 3s402 102 630-16v213H0Z" fill="#809d87" opacity=".45"/>
+  <g filter="url(#shadow)" transform="rotate(-5 380 450)">
+    <rect x="118" y="111" width="490" height="664" rx="16" fill="#244637"/>
+    <rect x="137" y="130" width="452" height="626" rx="5" fill="url(#screen)"/>
+    <text x="172" y="183" fill="#b46b43" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="4">SOCIAL CONTENT / WEEK 01</text>
+    <text x="172" y="232" fill="#244637" font-family="Georgia,serif" font-size="40">Pagi Studio</text>
+    <text x="173" y="259" fill="#7b7569" font-family="Arial,sans-serif" font-size="12" letter-spacing="2">COFFEE, SLOWLY.</text>
+    <rect x="168" y="292" width="390" height="210" rx="5" fill="#d9b48c"/>
+    <circle cx="365" cy="394" r="82" fill="#f3e5cd"/>
+    <path d="M318 373h82c-4 60-12 77-41 77s-37-17-41-77Zm-11 0h105m-22-21 25-23" fill="none" stroke="#7b4a35" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M358 351c10-20 27-25 43-18" fill="none" stroke="#66805d" stroke-width="7" stroke-linecap="round"/>
+    <text x="190" y="478" fill="#244637" font-family="Georgia,serif" font-size="19">Mulai hari dengan jeda.</text>
+    <rect x="168" y="523" width="185" height="194" rx="5" fill="#e2ece2"/>
+    <rect x="367" y="523" width="191" height="194" rx="5" fill="#f2d9be"/>
+    <circle cx="260" cy="594" r="38" fill="#93a986"/>
+    <path d="M259 632v-56m0 22c-18-20-33-20-44-13 6 18 19 25 43 21m2-18c15-17 29-19 42-11-5 17-17 24-39 24" fill="none" stroke="#42674d" stroke-width="5" stroke-linecap="round"/>
+    <text x="186" y="677" fill="#244637" font-family="Arial,sans-serif" font-size="13" font-weight="700">ORIGIN STORY</text>
+    <circle cx="463" cy="598" r="47" fill="#bd7652"/>
+    <circle cx="463" cy="598" r="30" fill="#efcf9d"/>
+    <text x="389" y="677" fill="#74442f" font-family="Arial,sans-serif" font-size="13" font-weight="700">MENU SPOTLIGHT</text>
+  </g>
+  <g filter="url(#shadow)" transform="rotate(6 850 470)">
+    <rect x="700" y="147" width="335" height="596" rx="42" fill="#20362e"/>
+    <rect x="715" y="163" width="305" height="564" rx="31" fill="#f9f3e8"/>
+    <rect x="809" y="176" width="115" height="14" rx="7" fill="#20362e"/>
+    <text x="748" y="233" fill="#b46b43" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="3">PAGI / 09:12</text>
+    <rect x="742" y="257" width="250" height="235" rx="8" fill="#d6b18a"/>
+    <circle cx="867" cy="370" r="76" fill="#f3e5cd"/>
+    <path d="M822 349h80c-4 53-11 69-40 69s-36-16-40-69Zm-10 0h100" fill="none" stroke="#7b4a35" stroke-width="8" stroke-linecap="round"/>
+    <text x="761" y="535" fill="#244637" font-family="Georgia,serif" font-size="28">Ritual kecil,</text>
+    <text x="761" y="570" fill="#244637" font-family="Georgia,serif" font-size="28" font-style="italic">hari lebih baik.</text>
+    <line x1="761" y1="600" x2="970" y2="600" stroke="#d8cbb7"/>
+    <text x="761" y="630" fill="#82796c" font-family="Arial,sans-serif" font-size="11" letter-spacing="2">STORY / FEED / REEL</text>
+    <circle cx="866" cy="685" r="5" fill="#b46b43"/>
+    <circle cx="884" cy="685" r="5" fill="#d8cbb7"/>
+    <circle cx="902" cy="685" r="5" fill="#d8cbb7"/>
+  </g>
+  <text x="80" y="849" fill="#20362e" font-family="Arial,sans-serif" font-size="13" letter-spacing="5" opacity=".9">DIGITAL CONTENT / CONCEPT STUDY 03</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Studi konsep identitas Sela skincare</title>
+  <desc id="desc">Identitas perawatan kulit minimal dengan kemasan lembut, palet pasir, dan aksen biru laut.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#d7e5df"/>
+      <stop offset="1" stop-color="#afc7c1"/>
+    </linearGradient>
+    <linearGradient id="bottle" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#fffaf0"/>
+      <stop offset="1" stop-color="#e7d8c6"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#375650" flood-opacity=".22"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <circle cx="995" cy="125" r="250" fill="#f8ead2" opacity=".55"/>
+  <path d="M0 725c190-76 410-108 620-20s397 113 580 32v163H0Z" fill="#8ca9a2" opacity=".44"/>
+  <g filter="url(#shadow)" transform="rotate(-5 405 470)">
+    <rect x="155" y="138" width="500" height="620" rx="8" fill="#faf6eb"/>
+    <rect x="180" y="163" width="450" height="570" fill="none" stroke="#d3c7b5" stroke-width="2"/>
+    <circle cx="405" cy="322" r="108" fill="#dbe8df"/>
+    <path d="M407 398c-5-72 16-127 64-167m-62 115c-39-45-76-47-108-31 10 46 43 67 106 60m22-65c33-43 67-49 102-31-9 44-39 66-91 69" fill="none" stroke="#4f7772" stroke-width="8" stroke-linecap="round"/>
+    <text x="405" y="520" text-anchor="middle" fill="#345953" font-family="Georgia,serif" font-size="60" letter-spacing="7">S E L A</text>
+    <text x="405" y="563" text-anchor="middle" fill="#6c7f78" font-family="Arial,sans-serif" font-size="12" letter-spacing="5">SKIN RITUALS</text>
+    <line x1="300" y1="591" x2="510" y2="591" stroke="#d2a96c" stroke-width="2"/>
+    <text x="405" y="626" text-anchor="middle" fill="#76827a" font-family="Arial,sans-serif" font-size="11" letter-spacing="3">CARE FOR YOUR OWN PACE</text>
+  </g>
+  <g filter="url(#shadow)" transform="rotate(6 830 500)">
+    <rect x="730" y="295" width="185" height="390" rx="34" fill="url(#bottle)"/>
+    <rect x="783" y="255" width="78" height="58" rx="12" fill="#557a73"/>
+    <rect x="752" y="386" width="142" height="174" rx="4" fill="#dce8df"/>
+    <circle cx="823" cy="438" r="31" fill="#f0d7b4"/>
+    <path d="M823 466v-52m0 24c-14-17-28-18-40-11 5 17 17 24 39 20m4-15c12-15 24-17 36-10-4 16-15 23-34 22" fill="none" stroke="#4f7772" stroke-width="4" stroke-linecap="round"/>
+    <text x="823" y="505" text-anchor="middle" fill="#345953" font-family="Georgia,serif" font-size="19">SELA</text>
+    <text x="823" y="528" text-anchor="middle" fill="#6c7f78" font-family="Arial,sans-serif" font-size="8" letter-spacing="2">DAILY SERUM</text>
+    <text x="823" y="624" text-anchor="middle" fill="#8d8a7f" font-family="Arial,sans-serif" font-size="10" letter-spacing="2">30 ML / FACE CARE</text>
+  </g>
+  <text x="78" y="850" fill="#345953" font-family="Arial,sans-serif" font-size="13" letter-spacing="5">BRAND IDENTITY / CONCEPT STUDY 05</text>
+</svg>

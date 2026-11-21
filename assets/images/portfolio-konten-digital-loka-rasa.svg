@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Studi konsep kampanye digital Loka Rasa</title>
+  <desc id="desc">Kampanye sosial untuk menu musiman dengan mockup story, feed, dan visual makanan lokal.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f0d9c0"/>
+      <stop offset="1" stop-color="#d8aa89"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="22" stdDeviation="20" flood-color="#664235" flood-opacity=".24"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <circle cx="1050" cy="160" r="230" fill="#f9edda" opacity=".48"/>
+  <g filter="url(#shadow)" transform="rotate(-6 390 450)">
+    <rect x="120" y="126" width="490" height="640" rx="18" fill="#fff8ed"/>
+    <text x="164" y="186" fill="#aa5b42" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="4">LOKA RASA / SEASONAL SERIES</text>
+    <text x="164" y="242" fill="#354d3b" font-family="Georgia,serif" font-size="43">Rasa yang</text>
+    <text x="164" y="287" fill="#354d3b" font-family="Georgia,serif" font-size="43" font-style="italic">pulang.</text>
+    <rect x="164" y="315" width="402" height="238" rx="5" fill="#d98f62"/>
+    <circle cx="365" cy="430" r="90" fill="#f7e5c4"/>
+    <ellipse cx="365" cy="438" rx="66" ry="48" fill="#b75d3e"/>
+    <path d="M318 426c25-20 50-20 73 0s47 20 72 0m-130 22c26-19 53-19 79 0s49 19 76 0" fill="none" stroke="#f2d28d" stroke-width="7" stroke-linecap="round"/>
+    <path d="M354 359c4-26 22-41 45-43m-34 41c-15-18-31-21-47-12 5 20 18 29 42 27" fill="none" stroke="#67805b" stroke-width="7" stroke-linecap="round"/>
+    <text x="188" y="523" fill="#fff8ed" font-family="Georgia,serif" font-size="18">Menu musiman, cerita lokal.</text>
+    <rect x="164" y="578" width="190" height="148" rx="5" fill="#e3ebdc"/>
+    <rect x="370" y="578" width="196" height="148" rx="5" fill="#efe0c8"/>
+    <circle cx="259" cy="634" r="33" fill="#759267"/>
+    <text x="184" y="697" fill="#354d3b" font-family="Arial,sans-serif" font-size="12" font-weight="700">INGREDIENT STORY</text>
+    <circle cx="468" cy="634" r="33" fill="#d98f62"/>
+    <text x="391" y="697" fill="#8f4b37" font-family="Arial,sans-serif" font-size="12" font-weight="700">MENU SPOTLIGHT</text>
+  </g>
+  <g filter="url(#shadow)" transform="rotate(6 850 470)">
+    <rect x="720" y="150" width="330" height="590" rx="42" fill="#263e31"/>
+    <rect x="735" y="165" width="300" height="560" rx="30" fill="#fff8ed"/>
+    <rect x="825" y="178" width="120" height="14" rx="7" fill="#263e31"/>
+    <text x="762" y="231" fill="#aa5b42" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="3">LOKA RASA / 12:08</text>
+    <rect x="760" y="256" width="250" height="240" rx="7" fill="#e2b486"/>
+    <circle cx="885" cy="368" r="82" fill="#f7e5c4"/>
+    <ellipse cx="885" cy="377" rx="58" ry="41" fill="#b75d3e"/>
+    <path d="M844 368c22-17 44-17 66 0s42 17 65 0" fill="none" stroke="#f2d28d" stroke-width="6" stroke-linecap="round"/>
+    <text x="775" y="544" fill="#354d3b" font-family="Georgia,serif" font-size="24">Dari sini.</text>
+    <text x="775" y="577" fill="#354d3b" font-family="Georgia,serif" font-size="24" font-style="italic">Untuk semua.</text>
+    <line x1="775" y1="605" x2="994" y2="605" stroke="#d8cbb7"/>
+    <text x="775" y="635" fill="#7b7569" font-family="Arial,sans-serif" font-size="10" letter-spacing="2">CAMPAIGN / STORY / FEED</text>
+    <circle cx="884" cy="685" r="5" fill="#aa5b42"/>
+    <circle cx="902" cy="685" r="5" fill="#d8cbb7"/>
+    <circle cx="920" cy="685" r="5" fill="#d8cbb7"/>
+  </g>
+  <text x="78" y="850" fill="#354d3b" font-family="Arial,sans-serif" font-size="13" letter-spacing="5">DIGITAL CONTENT / CONCEPT STUDY 09</text>
+</svg>

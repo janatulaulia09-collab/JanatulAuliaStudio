@@ -1,0 +1,30 @@
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+
+# Local application/database configuration (keep example templates)
+/config/env.php
+/config/env.local.php
+/config/ai.local.php
+/config/*local.php
+
+# Runtime logs and temporary files
+/logs/*.log
+*.log
+*.tmp
+*.bak
+
+# User-generated uploads (keep the directory placeholder)
+/uploads/*
+!/uploads/.gitkeep
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local test artifacts
+.phpunit.cache/
+coverage/

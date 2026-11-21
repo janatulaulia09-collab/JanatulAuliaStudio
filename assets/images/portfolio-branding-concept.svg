@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Studi konsep identitas Rona Botanika</title>
+  <desc id="desc">Mockup identitas visual botani dengan palet hijau hutan, krem, dan aksen jeruk.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#173f32"/>
+      <stop offset="1" stop-color="#315d49"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0.9" y2="1">
+      <stop stop-color="#fffaf0"/>
+      <stop offset="1" stop-color="#efe4d2"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#95a979"/>
+      <stop offset="1" stop-color="#426c50"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#102c23" flood-opacity=".28"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#background)"/>
+  <circle cx="1050" cy="140" r="220" fill="#d2a46e" opacity=".16"/>
+  <circle cx="1050" cy="140" r="148" fill="none" stroke="#f4e8d5" stroke-opacity=".28"/>
+  <path d="M0 690c240-110 350-70 520 30s380 140 680 0v180H0Z" fill="#15392e" opacity=".65"/>
+  <g filter="url(#shadow)" transform="rotate(-5 490 440)">
+    <rect x="115" y="115" width="650" height="670" rx="8" fill="url(#paper)"/>
+    <rect x="145" y="145" width="590" height="610" rx="3" fill="none" stroke="#d7c8ae"/>
+    <circle cx="440" cy="338" r="94" fill="#e6d9c2"/>
+    <path d="M443 420c-6-88 20-158 82-213m-80 143c-47-57-91-59-125-44 13 52 54 78 125 67m20-75c39-54 80-63 121-42-10 48-49 77-113 84m-27 71c-29-35-65-43-103-27 10 41 43 63 98 57m72-39c31-38 66-45 106-26-10 41-43 63-100 58" fill="none" stroke="#426c50" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M442 410c-1-63 22-119 68-168" fill="none" stroke="#d68c4e" stroke-width="5" stroke-linecap="round"/>
+    <text x="440" y="542" text-anchor="middle" fill="#214637" font-family="Georgia,serif" font-size="54" letter-spacing="3">RONA</text>
+    <text x="440" y="586" text-anchor="middle" fill="#426c50" font-family="Arial,sans-serif" font-size="16" letter-spacing="8">BOTANIKA</text>
+    <line x1="350" y1="616" x2="530" y2="616" stroke="#d68c4e" stroke-width="2"/>
+    <text x="440" y="652" text-anchor="middle" fill="#786f5f" font-family="Arial,sans-serif" font-size="12" letter-spacing="3">GROW WITH INTENTION</text>
+  </g>
+  <g filter="url(#shadow)" transform="rotate(8 900 560)">
+    <rect x="810" y="342" width="250" height="355" rx="7" fill="#f3eadb"/>
+    <rect x="830" y="362" width="210" height="315" fill="#d8e1cf"/>
+    <circle cx="935" cy="500" r="60" fill="#e9b86f"/>
+    <path d="M934 570c-4-48 12-92 43-130m-42 94c-31-34-59-35-83-24 8 31 34 47 79 41m31-45c27-32 54-37 80-25-7 29-31 47-72 50" fill="none" stroke="#426c50" stroke-width="7" stroke-linecap="round"/>
+    <text x="935" y="620" text-anchor="middle" fill="#214637" font-family="Georgia,serif" font-size="22">Rona Botanika</text>
+  </g>
+  <text x="90" y="845" fill="#f2e7d4" font-family="Arial,sans-serif" font-size="13" letter-spacing="5" opacity=".85">BRAND IDENTITY / CONCEPT STUDY 01</text>
+</svg>

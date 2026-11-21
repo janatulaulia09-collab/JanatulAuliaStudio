@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Studi konsep poster Ruang Baca</title>
+  <desc id="desc">Poster acara literasi dengan tipografi kontras, warna biru malam, dan ilustrasi buku terbuka.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#d8b7a0"/>
+      <stop offset="1" stop-color="#b17c67"/>
+    </linearGradient>
+    <linearGradient id="poster" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#213f4b"/>
+      <stop offset="1" stop-color="#142d39"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="22" stdDeviation="20" flood-color="#452f2d" flood-opacity=".27"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <circle cx="130" cy="160" r="220" fill="#f2d7b1" opacity=".36"/>
+  <g filter="url(#shadow)" transform="rotate(-4 585 450)">
+    <rect x="280" y="85" width="640" height="730" rx="8" fill="url(#poster)"/>
+    <rect x="303" y="108" width="594" height="684" fill="none" stroke="#a9c2b9" stroke-opacity=".5" stroke-width="2"/>
+    <text x="348" y="168" fill="#e1ae70" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="5">KOTA BERTEMU KATA</text>
+    <text x="348" y="266" fill="#fbf1dd" font-family="Georgia,serif" font-size="76">Ruang</text>
+    <text x="348" y="342" fill="#e1ae70" font-family="Georgia,serif" font-size="76" font-style="italic">Baca</text>
+    <text x="352" y="386" fill="#c6d6cc" font-family="Arial,sans-serif" font-size="13" letter-spacing="3">MALAM CERITA &amp; PUISI</text>
+    <path d="M394 562c52-68 114-92 190-71v177c-71-21-134 3-190 71Zm380 0c-52-68-114-92-190-71v177c71-21 134 3 190 71Z" fill="#f3e4c8" stroke="#e1ae70" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M584 491v177m-145-109c42-34 85-48 131-39m-121 71c37-28 77-39 121-31m161-1c-42-34-85-48-131-39m121 71c-37-28-77-39-121-31" fill="none" stroke="#b57859" stroke-width="5" stroke-linecap="round"/>
+    <text x="350" y="742" fill="#fbf1dd" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="3">POSTER / EVENT KIT / EDITORIAL</text>
+    <circle cx="835" cy="737" r="28" fill="#e1ae70"/>
+    <path d="M825 737h19m-9-9 9 9-9 9" fill="none" stroke="#142d39" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="78" y="850" fill="#fbf1dd" font-family="Arial,sans-serif" font-size="13" letter-spacing="5">GRAPHIC DESIGN / CONCEPT STUDY 07</text>
+</svg>

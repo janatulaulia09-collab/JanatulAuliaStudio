@@ -1,0 +1,566 @@
+/**
+ * JanatulAulia Studio — Admin Visual System
+ * Concept: "Vibrant Modern Creative Studio Dashboard"
+ *
+ * Rich colorful mesh gradient canvas, colored stat cards,
+ * frosted glass topbar, and modern editorial surfaces.
+ */
+
+:root {
+  /* Admin Color System */
+  --admin-bg: #E8EEE9;
+  /* Soft muted sage canvas */
+  --admin-bg-mesh: linear-gradient(135deg,
+      #D8E9DD 0%,
+      #E6DDD0 35%,
+      #D6E5DB 65%,
+      #E2D8CC 100%);
+  --admin-surface: #FFFFFF;
+  --admin-surface-soft: #F4F7F5;
+  --admin-ink: #1E3028;
+  --admin-muted: #677A6E;
+  --admin-border: #DCE3DC;
+  --admin-primary: #3A6650;
+  --admin-primary-hover: #2B4E3C;
+  --admin-sage: #A8CCAD;
+  --admin-sage-light: #D4E9D8;
+  --admin-peach: #D4976A;
+  --admin-amber: #C9873A;
+  --admin-amber-light: #F5EAD8;
+
+  /* Stat card accent colors */
+  --admin-stat-1: #2D6E52;
+  /* emerald — layanan */
+  --admin-stat-2: #4A6E9A;
+  /* slate blue — portofolio */
+  --admin-stat-3: #8A5A3C;
+  /* warm brown — brief */
+  --admin-stat-feat: linear-gradient(135deg, #1E4D38 0%, #2A6B4F 60%, #1A3D2C 100%);
+
+  --font-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  --shadow-soft: 0 4px 20px rgba(30, 48, 40, 0.06);
+  --shadow-card: 0 8px 30px rgba(30, 48, 40, 0.08);
+  --shadow-elevated: 0 16px 40px rgba(30, 48, 40, 0.12);
+  --shadow-float: 0 24px 60px rgba(30, 48, 40, 0.16);
+}
+
+/* Base Body — Rich Colorful Mesh Gradient Canvas */
+body,
+.admin-body {
+  font-family: var(--font-sans);
+  background: var(--admin-bg-mesh);
+  background-attachment: fixed;
+  color: var(--admin-ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+/* Atmospheric ambient light layers */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 700px 500px at 15% 10%, rgba(100, 190, 140, 0.12), transparent 70%),
+    radial-gradient(ellipse 600px 450px at 85% 80%, rgba(195, 150, 100, 0.10), transparent 70%),
+    radial-gradient(ellipse 500px 400px at 50% 50%, rgba(80, 140, 210, 0.05), transparent 70%);
+}
+
+/* Ensure content sits above pseudo-layer */
+body>* {
+  position: relative;
+  z-index: 1;
+}
+
+.min-h-screen.flex {
+  position: relative;
+  z-index: 1;
+}
+
+.serif {
+  font-family: var(--font-serif);
+}
+
+/* ==========================================================================
+   Sidebar Navigation (Desktop)
+   ========================================================================== */
+.admin-sidebar {
+  width: 260px;
+  background: linear-gradient(180deg, #172A22 0%, #122018 50%, #1D3028 100%) !important;
+  color: #FFFFFF;
+  box-shadow: 8px 0 40px rgba(18, 32, 24, 0.20);
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
+  /* Glass-tinted left accent */
+  position: relative;
+}
+
+.admin-sidebar::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: linear-gradient(180deg, #64C88C 0%, #4A9E72 50%, #3A7A5A 100%);
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.admin-sidebar>div:first-child {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+.admin-sidebar .rounded-full.border {
+  border-color: var(--admin-sage) !important;
+  color: var(--admin-sage) !important;
+  background: rgba(201, 223, 207, 0.1);
+}
+
+.admin-sidebar strong {
+  letter-spacing: 0.18em;
+  color: #FFFFFF;
+}
+
+.admin-sidebar small {
+  color: rgba(255, 255, 255, 0.5) !important;
+  letter-spacing: 0.3em;
+}
+
+.admin-sidebar .side-link {
+  min-height: 44px;
+  padding: 11px 14px;
+  border-radius: 12px;
+  color: rgba(234, 239, 232, 0.72) !important;
+  font-size: 13px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+  border: 1px solid transparent;
+}
+
+.admin-sidebar .side-link>span {
+  width: 20px;
+  text-align: center;
+  color: var(--admin-sage);
+  opacity: 0.8;
+  font-size: 14px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.admin-sidebar .side-link:hover {
+  background: rgba(255, 255, 255, 0.08) !important;
+  color: #FFFFFF !important;
+  transform: translateX(3px);
+}
+
+.admin-sidebar .side-link:hover>span {
+  opacity: 1;
+}
+
+.admin-sidebar .side-link.active {
+  background: linear-gradient(90deg, rgba(201, 223, 207, 0.22), rgba(201, 223, 207, 0.06)) !important;
+  border-left: 3px solid var(--admin-sage) !important;
+  border-color: rgba(201, 223, 207, 0.2) rgba(201, 223, 207, 0.06) rgba(201, 223, 207, 0.06) var(--admin-sage);
+  color: #FFFFFF !important;
+  font-weight: 600;
+}
+
+.admin-sidebar .side-link.active>span {
+  color: var(--admin-sage) !important;
+  opacity: 1;
+}
+
+.admin-sidebar>div:last-child {
+  border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+/* ==========================================================================
+   Topbar (Desktop & Mobile) — Frosted Glass
+   ========================================================================== */
+.admin-topbar {
+  background: rgba(255, 255, 255, 0.82) !important;
+  border-bottom: 1px solid rgba(220, 227, 220, 0.6) !important;
+  backdrop-filter: blur(20px) saturate(1.4);
+  -webkit-backdrop-filter: blur(20px) saturate(1.4);
+  height: 80px;
+  box-shadow: 0 2px 20px rgba(30, 48, 40, 0.06);
+}
+
+.admin-topbar h1 {
+  color: var(--admin-ink) !important;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.admin-topbar .rounded-full {
+  background: var(--admin-sage) !important;
+  color: var(--admin-primary) !important;
+  font-weight: 700;
+  box-shadow: 0 2px 8px rgba(38, 55, 45, 0.08);
+}
+
+/* ==========================================================================
+   Mobile Nav (Tabs Horizontal)
+   ========================================================================== */
+.admin-mobile-nav {
+  display: flex;
+  gap: 8px;
+  padding: 12px 18px;
+  background: #FFFFFF;
+  border-bottom: 1px solid var(--admin-border);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.admin-mobile-nav a {
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--admin-muted);
+  background: var(--admin-surface-soft);
+  border: 1px solid var(--admin-border);
+  white-space: nowrap;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.admin-mobile-nav a:hover {
+  border-color: var(--admin-primary);
+  color: var(--admin-primary);
+}
+
+.admin-mobile-nav a.active {
+  background: var(--admin-primary) !important;
+  color: #FFFFFF !important;
+  border-color: var(--admin-primary) !important;
+  box-shadow: 0 4px 14px rgba(73, 110, 88, 0.2);
+}
+
+/* ==========================================================================
+   Main Content Area — Glass Cards on Colorful Canvas
+   ========================================================================== */
+.admin-main {
+  color: var(--admin-ink);
+}
+
+.admin-main h2.serif {
+  color: var(--admin-ink) !important;
+  letter-spacing: -0.03em;
+  font-weight: 600;
+}
+
+.admin-main h3 {
+  color: var(--admin-ink);
+  letter-spacing: -0.015em;
+}
+
+/* White Content Cards — with frosted glass effect */
+.admin-main .bg-white {
+  background: rgba(255, 255, 255, 0.90) !important;
+  border: 1px solid rgba(220, 227, 220, 0.70) !important;
+  box-shadow: 0 4px 24px rgba(30, 48, 40, 0.07), 0 1px 3px rgba(30, 48, 40, 0.04) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.admin-main .rounded-2xl {
+  border-radius: 18px !important;
+}
+
+.admin-main .rounded-xl {
+  border-radius: 13px !important;
+}
+
+/* ==========================================================================
+   Stat Cards — Colorful Accents
+   ========================================================================== */
+/* Base stat card — frosted glass white */
+.admin-stat-card {
+  background: rgba(255, 255, 255, 0.88) !important;
+  border: 1px solid rgba(220, 227, 220, 0.65) !important;
+  border-radius: 18px !important;
+  padding: 24px !important;
+  box-shadow: 0 6px 28px rgba(30, 48, 40, 0.08) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease;
+  /* Colored top bar */
+  border-top: 4px solid var(--admin-sage) !important;
+}
+
+.admin-stat-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 40px rgba(30, 48, 40, 0.12) !important;
+}
+
+/* Individual stat card color accents via nth-child */
+.admin-stat-card:nth-child(1) {
+  border-top-color: #3A9E72 !important;
+  /* Emerald Green — Layanan */
+}
+
+.admin-stat-card:nth-child(2) {
+  border-top-color: #4A80B0 !important;
+  /* Slate Blue — Portofolio */
+}
+
+.admin-stat-card:nth-child(3) {
+  border-top-color: #C47E3A !important;
+  /* Warm Amber — Brief */
+}
+
+.admin-stat-card .serif {
+  color: var(--admin-ink);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+}
+
+/* Featured stat card — rich forest green gradient */
+.admin-stat-featured {
+  background: var(--admin-stat-feat) !important;
+  color: #FFFFFF !important;
+  border: none !important;
+  border-top: 4px solid rgba(100, 200, 150, 0.6) !important;
+  box-shadow: 0 10px 36px rgba(30, 78, 56, 0.30), 0 4px 12px rgba(30, 78, 56, 0.20) !important;
+}
+
+.admin-stat-featured .serif {
+  color: #FFFFFF !important;
+}
+
+.admin-stat-featured a {
+  color: #A8D8B8 !important;
+  font-weight: 700;
+}
+
+.admin-stat-featured a:hover {
+  color: #FFFFFF !important;
+  text-decoration: underline;
+}
+
+/* Tables — tinted headers on glass card */
+.admin-main table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+}
+
+.admin-main thead {
+  background: linear-gradient(90deg, #DFF0E5 0%, #E6DECE 100%) !important;
+  border-bottom: 1px solid var(--admin-border);
+}
+
+.admin-main th {
+  color: var(--admin-muted) !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.1em !important;
+  text-transform: uppercase !important;
+  padding: 14px 20px !important;
+  border-bottom: 1px solid var(--admin-border);
+}
+
+.admin-main td {
+  padding: 16px 20px !important;
+  border-bottom: 1px solid rgba(220, 227, 220, 0.6);
+  font-size: 13px;
+  color: var(--admin-ink);
+}
+
+.admin-main tbody tr {
+  transition: background 0.15s ease;
+}
+
+.admin-main tbody tr:hover {
+  background: rgba(168, 204, 173, 0.15) !important;
+}
+
+.admin-main tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+/* Form Inputs */
+.admin-input {
+  width: 100%;
+  min-height: 44px;
+  padding: 11px 15px !important;
+  border: 1px solid var(--admin-border) !important;
+  border-radius: 12px !important;
+  background: #FFFFFF !important;
+  color: var(--admin-ink) !important;
+  font-family: var(--font-sans) !important;
+  font-size: 13px !important;
+  outline: none !important;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease !important;
+}
+
+.admin-input:focus {
+  border-color: var(--admin-primary) !important;
+  background: #FFFFFF !important;
+  box-shadow: 0 0 0 3px rgba(73, 110, 88, 0.14) !important;
+}
+
+.admin-main textarea.admin-input {
+  resize: vertical;
+  line-height: 1.6;
+}
+
+/* Buttons */
+.admin-main button.bg-\[\#1c2b27\],
+.admin-main button.bg-\[\#17211f\],
+.admin-main a.bg-\[\#1c2b27\],
+.admin-main a.bg-\[\#17211f\] {
+  background: var(--admin-primary) !important;
+  color: #FFFFFF !important;
+  border-radius: 999px !important;
+  font-weight: 700 !important;
+  box-shadow: 0 4px 14px rgba(73, 110, 88, 0.18) !important;
+  transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.admin-main button.bg-\[\#1c2b27\]:hover,
+.admin-main button.bg-\[\#17211f\]:hover,
+.admin-main a.bg-\[\#1c2b27\]:hover,
+.admin-main a.bg-\[\#17211f\]:hover {
+  background: var(--admin-primary-hover) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(73, 110, 88, 0.26) !important;
+}
+
+/* Status Badges */
+.admin-main .bg-emerald-50.text-emerald-700,
+.admin-main .bg-emerald-50.text-emerald-800 {
+  background: #E8F4EC !important;
+  color: #244C34 !important;
+  font-weight: 700 !important;
+  border: 1px solid var(--admin-sage);
+}
+
+.admin-main .bg-amber-50.text-amber-700 {
+  background: #FDF1EB !important;
+  color: #8C412F !important;
+  font-weight: 700 !important;
+  border: 1px solid var(--admin-peach);
+}
+
+.admin-main .bg-stone-100.text-stone-500 {
+  background: var(--admin-bg) !important;
+  color: var(--admin-muted) !important;
+  font-weight: 600 !important;
+  border: 1px solid var(--admin-border);
+}
+
+/* Alert Notifications */
+.admin-main .bg-emerald-50.border-emerald-100 {
+  background: #EBF4ED !important;
+  border-color: var(--admin-sage) !important;
+  color: #234B33 !important;
+  border-radius: 12px !important;
+}
+
+.admin-main .bg-rose-50.border-rose-100 {
+  background: #FCF0EB !important;
+  border-color: var(--admin-peach) !important;
+  color: #8F3B2A !important;
+  border-radius: 12px !important;
+}
+
+/* Quick Access Box — sage-tinted surface */
+.admin-main .bg-\[\#eae8e1\] {
+  background: linear-gradient(135deg, #D8EAE0 0%, #E8DDD0 100%) !important;
+  border: 1px solid rgba(168, 204, 173, 0.5) !important;
+}
+
+.admin-main .bg-\[\#eae8e1\] a.bg-white {
+  background: rgba(255, 255, 255, 0.90) !important;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.admin-main .bg-\[\#eae8e1\] a.bg-white:hover {
+  transform: translateX(3px);
+  border-color: var(--admin-primary) !important;
+  box-shadow: 0 4px 16px rgba(58, 102, 80, 0.14);
+}
+
+/* Detail Card Box */
+.admin-main .bg-\[\#f7f6f2\] {
+  background: linear-gradient(135deg, #EBF2ED 0%, #F2EBE0 100%) !important;
+  border: 1px solid rgba(168, 204, 173, 0.4);
+}
+
+/* Accent link in Admin */
+.admin-main .text-\[\#98744d\],
+.admin-main .text-\[\#a17b4d\],
+.admin-main .text-\[\#dfbd91\] {
+  color: var(--admin-primary) !important;
+}
+
+.admin-main .text-\[\#98744d\]:hover,
+.admin-main .text-\[\#a17b4d\]:hover {
+  color: var(--admin-primary-hover) !important;
+  text-decoration: underline;
+}
+
+/* ==========================================================================
+   Admin Login Page (`auth/login.php`)
+   ========================================================================== */
+.admin-login-shell {
+  border: 1px solid rgba(220, 227, 220, 0.5);
+  box-shadow: 0 30px 80px rgba(18, 32, 24, 0.20), 0 8px 24px rgba(18, 32, 24, 0.10);
+  border-radius: 28px;
+  overflow: hidden;
+}
+
+.admin-login-art {
+  background: linear-gradient(145deg, #142419 0%, #0F1E14 55%, #1A2F22 100%) !important;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Ambient glowing orbs on login art panel */
+.admin-login-art::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 400px 300px at 30% 20%, rgba(100, 180, 130, 0.18), transparent 70%),
+    radial-gradient(ellipse 300px 250px at 75% 80%, rgba(195, 150, 80, 0.14), transparent 70%);
+}
+
+.admin-login-art em,
+.admin-login-art span.text-\[\#d8b98b\],
+.admin-login-art p.text-\[\#d8b98b\] {
+  color: var(--admin-sage) !important;
+}
+
+.admin-login-form p.text-\[\#a17b4d\] {
+  color: var(--admin-primary) !important;
+}
+
+.admin-login-form input:focus {
+  border-color: var(--admin-primary) !important;
+  box-shadow: 0 0 0 3px rgba(73, 110, 88, 0.14) !important;
+}
+
+.admin-login-form button {
+  background: var(--admin-primary) !important;
+  border-radius: 12px !important;
+  font-weight: 700 !important;
+  transition: all 0.2s ease !important;
+}
+
+.admin-login-form button:hover {
+  background: var(--admin-primary-hover) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(73, 110, 88, 0.22);
+}

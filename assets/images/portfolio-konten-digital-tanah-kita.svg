@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Studi konsep konten digital Tanah Kita</title>
+  <desc id="desc">Rangkaian konten sosial tentang hasil kebun lokal dengan palet sage, terracotta, dan krem.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#dfe9d2"/>
+      <stop offset="1" stop-color="#a8bd91"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="22" stdDeviation="20" flood-color="#304831" flood-opacity=".22"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <circle cx="1040" cy="165" r="220" fill="#f5ddaa" opacity=".55"/>
+  <g filter="url(#shadow)" transform="rotate(-5 380 450)">
+    <rect x="110" y="120" width="500" height="650" rx="18" fill="#f9f4e8"/>
+    <text x="156" y="182" fill="#a5543c" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="4">TANAH KITA / CONTENT PLAN</text>
+    <text x="156" y="234" fill="#294a38" font-family="Georgia,serif" font-size="38">Dari kebun,</text>
+    <text x="156" y="276" fill="#294a38" font-family="Georgia,serif" font-size="38" font-style="italic">untuk meja.</text>
+    <rect x="156" y="310" width="408" height="222" rx="5" fill="#b9c99f"/>
+    <circle cx="360" cy="414" r="78" fill="#e9c779"/>
+    <path d="M360 473v-105m0 47c-29-35-57-37-81-23 8 34 33 49 79 44m9-31c25-33 51-38 78-24-8 32-31 48-72 48" fill="none" stroke="#42694a" stroke-width="8" stroke-linecap="round"/>
+    <text x="178" y="500" fill="#294a38" font-family="Georgia,serif" font-size="21">Cerita petani minggu ini</text>
+    <rect x="156" y="552" width="192" height="168" rx="5" fill="#d9e4d3"/>
+    <rect x="366" y="552" width="198" height="168" rx="5" fill="#f1d4b8"/>
+    <circle cx="251" cy="611" r="35" fill="#a5543c"/>
+    <path d="M251 581c-15-17-32-19-46-10 6 19 19 28 45 25m5-15c14-18 29-20 44-12-5 18-17 27-40 27" fill="none" stroke="#f4e8ce" stroke-width="4"/>
+    <text x="178" y="684" fill="#294a38" font-family="Arial,sans-serif" font-size="12" font-weight="700">MEET THE GROWER</text>
+    <path d="M464 578c25 15 37 39 34 70-28 10-53 4-73-19-2-29 11-46 39-51Z" fill="#759267"/>
+    <text x="388" y="684" fill="#7c4c39" font-family="Arial,sans-serif" font-size="12" font-weight="700">SEASONAL PICKS</text>
+  </g>
+  <g filter="url(#shadow)" transform="rotate(6 840 480)">
+    <rect x="730" y="150" width="320" height="590" rx="42" fill="#244334"/>
+    <rect x="744" y="165" width="292" height="559" rx="30" fill="#fbf5e9"/>
+    <rect x="830" y="178" width="120" height="14" rx="7" fill="#244334"/>
+    <text x="770" y="231" fill="#a5543c" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="3">TANAH KITA / 09:30</text>
+    <rect x="770" y="257" width="240" height="232" rx="6" fill="#d9e4d3"/>
+    <circle cx="889" cy="369" r="76" fill="#e9c779"/>
+    <path d="M889 430v-103m0 45c-29-34-56-36-80-22 8 33 32 48 78 43m9-30c25-32 50-37 76-23-8 31-30 47-70 47" fill="none" stroke="#42694a" stroke-width="7" stroke-linecap="round"/>
+    <text x="786" y="535" fill="#294a38" font-family="Georgia,serif" font-size="25">Kenali yang</text>
+    <text x="786" y="568" fill="#294a38" font-family="Georgia,serif" font-size="25" font-style="italic">menanam.</text>
+    <line x1="786" y1="598" x2="993" y2="598" stroke="#d8cbb7"/>
+    <text x="786" y="628" fill="#7b7569" font-family="Arial,sans-serif" font-size="10" letter-spacing="2">STORY / FEED / REEL</text>
+    <circle cx="888" cy="683" r="5" fill="#a5543c"/>
+    <circle cx="906" cy="683" r="5" fill="#d8cbb7"/>
+    <circle cx="924" cy="683" r="5" fill="#d8cbb7"/>
+  </g>
+  <text x="78" y="850" fill="#294a38" font-family="Arial,sans-serif" font-size="13" letter-spacing="5">DIGITAL CONTENT / CONCEPT STUDY 08</text>
+</svg>
